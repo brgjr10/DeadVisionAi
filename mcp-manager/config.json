@@ -1,0 +1,4 @@
+{"mcpServers": {
+"local-mcp-server": {"command": "node", "args": ["F:/MCP Database/local-mcp-server/server.js"]} 
+}
+}

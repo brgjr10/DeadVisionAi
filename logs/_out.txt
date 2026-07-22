@@ -1,0 +1,33 @@
+{"version": "0.1.0", "event": "haios_startup", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.892989Z"}
+{"provider_id": "together", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T19:04:59.899287Z"}
+{"provider_id": "fireworks", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T19:04:59.907594Z"}
+{"provider_id": "openai", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T19:04:59.915986Z"}
+{"provider_id": "anthropic", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T19:04:59.924308Z"}
+{"provider_id": "openrouter", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T19:04:59.926491Z"}
+{"provider_id": "openrouter", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.926860Z"}
+{"provider_id": "groq", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T19:04:59.927255Z"}
+{"provider_id": "groq", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.927592Z"}
+{"provider_id": "gemini", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T19:04:59.927974Z"}
+{"provider_id": "gemini", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.928366Z"}
+{"provider_id": "deepseek", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T19:04:59.928742Z"}
+{"provider_id": "deepseek", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.929090Z"}
+{"provider_id": "lmstudio", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T19:04:59.929442Z"}
+{"event": "lmstudio_provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.929752Z"}
+{"provider_id": "searxng", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T19:04:59.930075Z"}
+{"event": "searxng_provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.930376Z"}
+{"event": "health_monitor_started", "level": "info", "logger": "app.routing.master_router", "timestamp": "2026-05-19T19:04:59.930728Z"}
+{"event": "health_monitor_started", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.931040Z"}
+{"tool_id": "filesystem", "category": "filesystem", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.931827Z"}
+{"tool_id": "shell", "category": "shell", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.932445Z"}
+{"tool_id": "git", "category": "git", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.933057Z"}
+{"tool_id": "web_search", "category": "web_search", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.933379Z"}
+{"tool_id": "local_mcp_filesystem", "category": "filesystem", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.934804Z"}
+{"tool_id": "local_mcp_shell", "category": "shell", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.935133Z"}
+{"tool_id": "local_mcp", "category": "mcp", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T19:04:59.935467Z"}
+{"count": 7, "event": "tools_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:04:59.936128Z"}
+{"url": "http://localhost:6333", "event": "qdrant_initialized", "level": "info", "logger": "app.memory.vector_store", "timestamp": "2026-05-19T19:05:00.788792Z"}
+{"event": "memory_subsystems_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:05:00.789455Z"}
+{"event": "rdocl_version_detector_started", "level": "info", "logger": "app.classifier.rdocl", "timestamp": "2026-05-19T19:05:00.789875Z"}
+{"event": "rdocl_schema_health_check_started", "level": "info", "logger": "app.classifier.rdocl", "timestamp": "2026-05-19T19:05:00.790209Z"}
+{"model": "qwen2.5-0.5b-instruct", "interval": 30, "event": "classifier_keepalive_started", "level": "info", "logger": "app.classifier.classifier_keepalive", "timestamp": "2026-05-19T19:05:00.790536Z"}
+{"event": "rdocl_watchers_started", "level": "info", "logger": "main", "timestamp": "2026-05-19T19:05:00.790871Z"}

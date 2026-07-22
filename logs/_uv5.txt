@@ -1,0 +1,41 @@
+{"version": "0.1.0", "event": "haios_startup", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.572060Z"}
+{"provider_id": "together", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T17:47:16.588637Z"}
+{"provider_id": "fireworks", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T17:47:16.596963Z"}
+{"provider_id": "openai", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T17:47:16.605271Z"}
+{"provider_id": "anthropic", "event": "paid_provider_blocked_in_free_tier_mode", "level": "warning", "logger": "app.config", "timestamp": "2026-05-19T17:47:16.613677Z"}
+{"provider_id": "openrouter", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T17:47:16.616222Z"}
+{"provider_id": "openrouter", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.616684Z"}
+{"provider_id": "groq", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T17:47:16.617102Z"}
+{"provider_id": "groq", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.617452Z"}
+{"provider_id": "gemini", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T17:47:16.617877Z"}
+{"provider_id": "gemini", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.618596Z"}
+{"provider_id": "deepseek", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T17:47:16.619029Z"}
+{"provider_id": "deepseek", "event": "provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.619453Z"}
+{"provider_id": "lmstudio", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T17:47:16.619879Z"}
+{"event": "lmstudio_provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.620283Z"}
+{"provider_id": "searxng", "event": "provider_registered_sync", "level": "info", "logger": "app.providers.registry", "timestamp": "2026-05-19T17:47:16.620716Z"}
+{"event": "searxng_provider_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.621142Z"}
+{"event": "health_monitor_started", "level": "info", "logger": "app.routing.master_router", "timestamp": "2026-05-19T17:47:16.621708Z"}
+{"event": "health_monitor_started", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.622186Z"}
+{"tool_id": "filesystem", "category": "filesystem", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.623088Z"}
+{"tool_id": "shell", "category": "shell", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.623986Z"}
+{"tool_id": "git", "category": "git", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.624809Z"}
+{"tool_id": "web_search", "category": "web_search", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.625233Z"}
+{"tool_id": "local_mcp_filesystem", "category": "filesystem", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.627875Z"}
+{"tool_id": "local_mcp_shell", "category": "shell", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.628418Z"}
+{"tool_id": "local_mcp", "category": "mcp", "event": "tool_registered", "level": "info", "logger": "app.tools.registry", "timestamp": "2026-05-19T17:47:16.628882Z"}
+{"count": 7, "event": "tools_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:16.629381Z"}
+{"url": "http://localhost:6333", "event": "qdrant_initialized", "level": "info", "logger": "app.memory.vector_store", "timestamp": "2026-05-19T17:47:17.537576Z"}
+{"event": "memory_subsystems_initialized", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:17.538413Z"}
+{"event": "rdocl_version_detector_started", "level": "info", "logger": "app.classifier.rdocl", "timestamp": "2026-05-19T17:47:17.538963Z"}
+{"event": "rdocl_schema_health_check_started", "level": "info", "logger": "app.classifier.rdocl", "timestamp": "2026-05-19T17:47:17.539376Z"}
+{"model": "qwen2.5-0.5b-instruct", "interval": 30, "event": "classifier_keepalive_started", "level": "info", "logger": "app.classifier.classifier_keepalive", "timestamp": "2026-05-19T17:47:17.539822Z"}
+{"event": "rdocl_watchers_started", "level": "info", "logger": "main", "timestamp": "2026-05-19T17:47:17.540196Z"}
+{"event": "local_classify_demoted_by_rdocl", "request_id": "253aa65b-b439-4cf9-86b1-0bb96e955d83", "level": "info", "logger": "app.routing.classifier", "timestamp": "2026-05-19T17:55:51.864697Z"}
+{"intent": "question-answering", "complexity": 0.03, "event": "classified_via_heuristic", "request_id": "253aa65b-b439-4cf9-86b1-0bb96e955d83", "level": "info", "logger": "app.routing.classifier", "timestamp": "2026-05-19T17:55:51.865826Z"}
+{"complexity": 0.03, "threshold": 0.4, "event": "routed_to_local", "request_id": "253aa65b-b439-4cf9-86b1-0bb96e955d83", "level": "info", "logger": "app.routing.master_router", "timestamp": "2026-05-19T17:55:51.866360Z"}
+{"error": "Client error '400 Bad Request' for url 'http://localhost:1234/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400", "event": "lmstudio_completion_error", "request_id": "253aa65b-b439-4cf9-86b1-0bb96e955d83", "level": "error", "logger": "app.providers.lmstudio_provider", "timestamp": "2026-05-19T17:55:52.428088Z"}
+{"error": "Client error '400 Bad Request' for url 'http://localhost:1234/v1/chat/completions'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/400", "event": "chat_endpoint_error", "request_id": "253aa65b-b439-4cf9-86b1-0bb96e955d83", "level": "error", "logger": "app.gateway.router", "timestamp": "2026-05-19T17:55:52.428990Z"}
+{"event": "local_classify_demoted_by_rdocl", "request_id": "b2df6c42-48de-44ce-95d8-04cbe7d6b29a", "level": "info", "logger": "app.routing.classifier", "timestamp": "2026-05-19T17:56:14.356327Z"}
+{"intent": "question-answering", "complexity": 0.03, "event": "classified_via_heuristic", "request_id": "b2df6c42-48de-44ce-95d8-04cbe7d6b29a", "level": "info", "logger": "app.routing.classifier", "timestamp": "2026-05-19T17:56:14.357111Z"}
+{"complexity": 0.03, "threshold": 0.4, "event": "routed_to_local", "request_id": "b2df6c42-48de-44ce-95d8-04cbe7d6b29a", "level": "info", "logger": "app.routing.master_router", "timestamp": "2026-05-19T17:56:14.357843Z"}

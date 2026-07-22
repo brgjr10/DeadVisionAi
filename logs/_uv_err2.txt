@@ -1,0 +1,24 @@
+ERROR:    Traceback (most recent call last):
+  File "C:\Users\brgjr\AppData\Roaming\Python\Python314\site-packages\starlette\routing.py", line 638, in lifespan
+    async with self.lifespan_context(app) as maybe_state:
+               ~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\brgjr\AppData\Roaming\Python\Python314\site-packages\fastapi\routing.py", line 216, in merged_lifespan
+    async with original_context(app) as maybe_original_state:
+               ~~~~~~~~~~~~~~~~^^^^^
+  File "C:\Python314\Lib\contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "F:\DeadVisionAi\backend\main.py", line 122, in lifespan
+    await _initialize_providers()
+  File "F:\DeadVisionAi\backend\main.py", line 48, in _initialize_providers
+    for provider_id, api_key in settings.get_configured_providers().items():
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "F:\DeadVisionAi\backend\app\config.py", line 207, in get_configured_providers
+    logger.warning(
+    ^^^^^^
+NameError: name 'logger' is not defined
+
+ERROR:    Application startup failed. Exiting.

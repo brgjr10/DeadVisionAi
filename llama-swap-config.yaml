@@ -1,0 +1,41 @@
+healthCheckTimeout: 500
+logLevel: info
+startPort: 8080
+
+models:
+  "IBM-Grok4-UltraFast-Coder-1B-Q6_K":
+    cmd:
+      - "F:/DeadVisionAi/llama.cpp/build/bin/Release/llama-server.exe"
+      - "-m"
+      - "F:/DeadVisionAi/llama.cpp/Models/IBM-Grok4-UltraFast-Coder-1B.Q6_K.gguf"
+      - "--host"
+      - "0.0.0.0"
+      - "--port"
+      - "${PORT}"
+      - "--threads"
+      - "12"
+      - "-ngl"
+      - "12"
+      - "--ctx-size"
+      - "4096"
+      - "--ui-mcp-proxy"
+      - "--jinja"
+
+  "Llama-3-2-3B-Instruct-Q4_K_S":
+    cmd:
+      - "F:/DeadVisionAi/llama.cpp/build/bin/Release/llama-server.exe"
+      - "-m"
+      - "F:/DeadVisionAi/llama.cpp/Models/Llama-3.2-3B-Instruct-Q4_K_S.gguf"
+      - "--host"
+      - "0.0.0.0"
+      - "--port"
+      - "${PORT}"
+      - "--threads"
+      - "12"
+      - "-ngl"
+      - "12"
+      - "--ctx-size"
+      - "4096"
+      - "--ui-mcp-proxy"
+      - "--jinja"
+
