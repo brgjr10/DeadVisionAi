@@ -2,6 +2,8 @@
 
 Full-stack AI platform combining local inference, vector search, and intelligent routing.
 
+<img width="1595" height="713" alt="image" src="https://github.com/user-attachments/assets/a75045f0-1153-4055-9dce-251bd427e765" />
+
 ## Stack
 
 - **Frontend**: Vite + React
